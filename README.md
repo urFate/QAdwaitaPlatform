@@ -1,7 +1,27 @@
-QGnomePlatform
+QAdwaitaPlatform
 ==========
 
-QGnomePlatform is a Qt Platform Theme designed to use as many of the GNOME settings as possible in unmodified Qt applications. It allows Qt applications to fit into the environment as well as possible.
+<div align="center">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/urFate/QAdwaitaPlatform?style=flat-square">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/urFate/QAdwaitaPlatform?style=flat-square">
+    <img alt="GitHub" src="https://img.shields.io/github/license/urFate/QAdwaitaPlatform?style=flat-square">
+</div>
+
+<p align="center">QAdwaitaPlatform is QGnomePlatform fork that implements modern LibAdwaita window decoration look to Qt applications.</p>
+
+## Result
+
+<div align="center">
+<figure>
+        <img src="https://camo.githubusercontent.com/3824639d74ec1e1c6b14b52c8509a15f723113de8643e961e0283e180619176c/68747470733a2f2f692e696d6775722e636f6d2f6931777a6279582e706e67" width="500" style="padding: 5px"></img>
+        <figcaption>🌑 Dark Scheme</figcaption>
+    </figure>
+
+<figure>
+        <img src="https://camo.githubusercontent.com/ccf8ae7f5623b6ab3c77a2633c991b232b9271e0f67f2d726137440a6259a860/68747470733a2f2f692e696d6775722e636f6d2f68785367514c562e706e67" width="500" style="padding: 5px">
+        <figcaption>☀️ Light Scheme</figcaption>
+    </figure>
+</div>
 
 ## How to compile
 
