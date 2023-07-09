@@ -195,15 +195,22 @@ QMargins QGnomePlatformDecoration::margins() const
 
 void QGnomePlatformDecoration::paint(QPaintDevice *device)
 {
+
+#ifdef DECORATION_SHADOWS_SUPPORT // Qt 6.2.0+ or patched QtWayland
+    const Qt::WindowStates windowStates = waylandWindow()->windowStates();
+    const bool active = windowStates & Qt::WindowActive;
+#else
+    const Qt::WindowStates windowStates = window()->windowStates();
     const bool active = window()->handle()->isActive();
-    const bool maximized = waylandWindow()->windowStates() & Qt::WindowMaximized;
+#endif
+
+    const bool maximized = windowStates & Qt::WindowMaximized;
+
     const QRect surfaceRect = windowContentGeometry();
     const QColor borderColor = active ? m_borderColor : m_borderInactiveColor;
 
     QPainter p(device);
     p.setRenderHint(QPainter::Antialiasing);
-
-    Qt::WindowStates windowStates;
 
 #ifdef DECORATION_SHADOWS_SUPPORT // Qt 6.2.0+ or patched QtWayland
     const bool tiledLeft = waylandWindow()->toplevelWindowTilingStates() & QWaylandWindow::WindowTiledLeft;
