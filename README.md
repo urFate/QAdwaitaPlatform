@@ -2,10 +2,13 @@ QAdwaitaPlatform
 ==========
 
 <div align="center">
+    <img alt="AUR version" src="https://img.shields.io/aur/version/qadwaitaplatform-qt6-git?style=flat-square&logo=archlinux&label=AUR">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/urFate/QAdwaitaPlatform?style=flat-square">
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/urFate/QAdwaitaPlatform?style=flat-square">
     <img alt="GitHub" src="https://img.shields.io/github/license/urFate/QAdwaitaPlatform?style=flat-square">
 </div>
+
+
 
 <p align="center">QAdwaitaPlatform is QGnomePlatform fork that implements modern LibAdwaita window decoration look to Qt applications.</p>
 
