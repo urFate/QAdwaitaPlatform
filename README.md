@@ -37,6 +37,12 @@ This library uses private Qt headers and will likely not be forward nor backward
 
     `make && sudo make install`
 
+### Build dependencies
+Packages names are depends on what distribution are you using. There is list for ArchLinux below.
+- adwaita-qt6, adwaita-qt5
+- qt6-wayland, qt5-wayland, qt5-quickcontrols2
+- cmake, git, gtk3
+
 ## Usage
 
 This library is used automatically in Gtk based desktops such as Gnome, Cinnamon or Xfce.
