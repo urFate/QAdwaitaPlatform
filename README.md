@@ -23,12 +23,19 @@ QAdwaitaPlatform
 
 This library uses private Qt headers and will likely not be forward nor backward compatible. This library will have to be recompiled with every Qt update.
 
-```
-mkdir build
-cd build
-cmake [OPTIONS] [-DUSE_QT6=true] ..
-make && make install
-```
+### Step-by-step guide
+1. Create 2 directories for Qt 5 and Qt 6 builds
+
+    `mkdir build-qt6 build-qt5`
+2. Change the directory to one of the previously created ones, **depending on for which version of Qt you are building**. (e.g. `cd build-qt6`)
+3. Run cmake command
+
+    `cmake -DUSE_QT6=false ..` - for Qt 5 build
+    
+    `cmake -DUSE_QT6=true ..` - for Qt 6 build
+4. Build & install QAdwaitaPlatform
+
+    `make && sudo make install`
 
 ## Usage
 
