@@ -8,8 +8,7 @@ QAdwaitaPlatform
     <img alt="GitHub" src="https://img.shields.io/github/license/urFate/QAdwaitaPlatform?style=flat-square">
 </div>
 
-
-
+<h3 align="center">The project was abandoned and is now unmaintained due to irrelevance. It is recommended to use an alternative in the form of <a href="https://github.com/FedoraQt/QAdwaitaDecorations">QAdwaitaDecorations</a>.</h3>
 <p align="center">QAdwaitaPlatform is QGnomePlatform fork that implements modern LibAdwaita window decoration look to Qt applications.</p>
 
 ## Result
